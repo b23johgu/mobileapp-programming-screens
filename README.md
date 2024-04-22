@@ -22,6 +22,7 @@ Den stylades och placerades i mitten av skärmen.
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 ```
+[Screenshot av knappen på första sidan](Screenshots/screenshotbutton.png)
 
 Knappen kopplas via "findViewById" ihop med en funktion som tar en till den andra sidan, alltså MainActivity2, när man klickar på den.
 ```
@@ -73,4 +74,5 @@ Den styleas och placeras ovanför ImageView i förhållande till den.
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 ```
+[Screenshot av andra sidan](Screenshots/screenshotcat.png)
 
